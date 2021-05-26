@@ -1,6 +1,7 @@
 
 require 'tty-prompt'
 require 'colorize'
+require 'rainbow'
 require_relative './classes/salon'
 require_relative './classes/service'
 require_relative './classes/dog'
