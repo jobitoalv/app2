@@ -9,6 +9,24 @@ require_relative './classes/header'
 # service and salon create 
 salon = Salon.new.add_service(Deluxe.new).add_service(Basic.new).add_service(Clip.new)
 
+def weight_checker 
+    puts" what`s your dog weight?:" 
+    weight = gets.strip.to_i
+    until weight > 5 
+        begin
+          if weight >! 5
+          end 
+        rescue 
+          puts "Input must be a reasonable weight, try again"
+          weight = gets.strip.to_i
+        end 
+        return weight
+    end 
+end 
+
+
+
+
 # Welcome message
 clear
 welcome(salon)
