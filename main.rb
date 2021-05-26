@@ -107,8 +107,8 @@ while true
             # no booking 
             else
                 new_booking_header
-                service = dog.choose_service
-                
+                service = salon.select_service
+                #service = dog.choose_service
                 new_booking_header
                 service.display_service
                 service.display_features
