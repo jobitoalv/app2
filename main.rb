@@ -24,6 +24,20 @@ def weight_checker
     return weight
 end 
 
+def age_input 
+    puts" what`s your dog age?:\n\n" 
+    age = gets.strip.to_i
+    until age > 1
+        begin
+          if age >! 1
+          end 
+        rescue 
+          puts "Input must be a reasonable age, try again"
+          age = gets.strip.to_i
+        end 
+    end 
+    return age
+end 
 
 
 
@@ -63,8 +77,9 @@ end
 
 #puts "Please enter weight: \n\n"
 weight = weight_checker
-# Creates a new dog object.
-dog = Dog.new(dog_name, weight)
+# Creates a new dog object
+age = age_input
+dog = Dog.new(dog_name, weight, age)
 puts "\n\n woofff wooff good boy #{dog.name}!"
 
 # Main  Loop 
