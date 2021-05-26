@@ -40,8 +40,10 @@ while dog_name_count < 2
     end
 end
 
+puts "Please enter weight: \n\n"
+weight = gets.chomp.to_i
 # Creates a new dog object.
-dog = Dog.new(dog_name)
+dog = Dog.new(dog_name, weight)
 puts "\n\n woofff wooff good boy #{dog.name}!"
 
 # Main  Loop 
@@ -69,7 +71,7 @@ while true
             # no booking 
             else
                 new_booking_header
-                service = salon.select_service
+                service = dog.choose_service
                 
                 new_booking_header
                 service.display_service

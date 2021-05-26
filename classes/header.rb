@@ -37,7 +37,7 @@ end
 def welcome(salon)
     puts
     puts HEADER_LINE
-    puts "WELCOME TO THE".center(HEADER_LENGTH)
+    puts "WELCOME TO ".center(HEADER_LENGTH)
     puts "#{salon.name} Dog Grooming !".center(HEADER_LENGTH)
     puts HEADER_LINE
     puts
