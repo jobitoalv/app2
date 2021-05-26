@@ -9,7 +9,7 @@ class Booking
         @days = days      
     end
 
-    # displays the booking
+    # displays the booking with salon info
     def display_booking(dog, salon)
         puts HEADER_LINE
         puts "#{dog.name.upcase}'S BOOKING".center(HEADER_LENGTH)
