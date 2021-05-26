@@ -171,18 +171,30 @@ while true
                 puts "can't wait to make your bestfriend \n the most handsomeboy in the block on #{dog.booking.days[0]}." 
                 puts "Have a lovely day amigo!"
 
-                puts " ,-.___,-.
-                       \_/_ _\_/
-                         )O_O(
-                        { (_) }
-                         `-^-'    "
+    puts <<-'EOF'
+                |\_/|                  
+                | @ @   Woof! 
+                |   <>              _  
+                |  _/\------____ ((| |))
+                |               `--' |   
+            ____|_       ___|   |___.' 
+           /_/_____/____/_______|
+    EOF
+                
                 return
             
             else 
                 clear
                 puts "Thank you #{dog_name}"
                 puts " Gracias and have a lovely day now go and play with your doggie "
-
+        puts <<-'EOF'
+                ,-.___,-.
+                \_/_ _\_/
+                  )O_O(
+                 { (_) }
+                  `-^-'    
+        EOF
+                  
                 return
             end
         end
