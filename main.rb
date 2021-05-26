@@ -168,7 +168,7 @@ while true
             if dog.booking
                 clear
                 puts "Thank you #{dog_name}!"
-                puts "can't wait to make your bestfriend the most handsomeboy in the block on #{dog.booking.days[0]}." 
+                puts "can't wait to make your bestfriend \n the most handsomeboy in the block on #{dog.booking.days[0]}." 
                 puts "Have a lovely day amigo!"
                 return
             
