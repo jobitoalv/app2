@@ -10,3 +10,5 @@ gem 'colorize', '~> 0.8.1'
 gem 'gemoji'
 
 gem "artii", "~> 2.1"
+
+gem "lolize", "~> 0.0.3"

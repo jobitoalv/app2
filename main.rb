@@ -1,15 +1,22 @@
 
 require 'tty-prompt'
 require 'colorize'
-require 'rainbow'
+require 'artii'
 require_relative './classes/salon'
 require_relative './classes/service'
 require_relative './classes/dog'
 require_relative './classes/booking'
 require_relative './classes/header'
 
+logo
 # service and salon create 
 salon = Salon.new.add_service(Deluxe.new).add_service(Basic.new).add_service(Clip.new)
+
+def logo
+    logo = Artii::Base.new
+    colorize = Lolize::Colorizer.new
+    colorizer.write logo.asciify("Fluffy Tails")
+end
 
 def weight_checker 
     puts" what`s your dog weight?:\n\n" 
