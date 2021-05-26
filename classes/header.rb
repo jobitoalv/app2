@@ -4,7 +4,7 @@ require 'tty-prompt'
 require 'colorize'
 
 # Line for the headers
-HEADER_LINE = "_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^"
+HEADER_LINE = ":.:.:.:.:.::.:.:.:.:.::.:.:.:.:.::.:.:.:.:.::.:.:.:.:.::.:.:.:.:.::.:.:.:.:.:"
 HEADER_LENGTH = HEADER_LINE.length
 
 #clear to make user terminal much easier to see 
