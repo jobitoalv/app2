@@ -14,7 +14,7 @@ class Salon
     end
 
     # Displays the contact information of the salon
-    def hotel_info
+    def salon_info
         puts HEADER_LINE
         puts "#{@name.upcase}".center(HEADER_LENGTH)
         puts HEADER_LINE

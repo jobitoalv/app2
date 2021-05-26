@@ -69,6 +69,6 @@ def service_name_header(service_name)
     clear
     puts
     puts HEADER_LINE
-    puts "#{service_name} Service".upcase.center(HEADER_LENGTH)
+    puts "#{service_name} Service".upcase.center(HEADER_LENGTH).colorize(:light_pink)
     puts HEADER_LINE
 end
