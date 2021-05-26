@@ -79,7 +79,7 @@ end
 weight = weight_checker
 # Creates a new dog object
 age = age_input
-dog = Dog.new(dog_name, weight, age)
+dog = Dog.new(dog_name, weight)
 puts "\n\n woofff wooff good boy #{dog.name}!"
 
 # Main  Loop 

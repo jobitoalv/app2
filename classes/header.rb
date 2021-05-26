@@ -1,6 +1,7 @@
 # Some beautiful headers and useful functions for our main app
 
 require 'tty-prompt'
+require 'colorize'
 
 # Line for the headers
 HEADER_LINE = "_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_^"
