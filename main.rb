@@ -10,7 +10,7 @@ require_relative './classes/header'
 salon = Salon.new.add_service(Deluxe.new).add_service(Basic.new).add_service(Clip.new)
 
 def weight_checker 
-    puts" what`s your dog weight?:" 
+    puts" what`s your dog weight?:\n\n" 
     weight = gets.strip.to_i
     until weight > 5 
         begin
@@ -20,8 +20,8 @@ def weight_checker
           puts "Input must be a reasonable weight, try again"
           weight = gets.strip.to_i
         end 
-        return weight
     end 
+    return weight
 end 
 
 
@@ -61,8 +61,8 @@ while dog_name_count < 2
     end
 end
 
-puts "Please enter weight: \n\n"
-weight = gets.chomp.to_i
+#puts "Please enter weight: \n\n"
+weight = weight_checker
 # Creates a new dog object.
 dog = Dog.new(dog_name, weight)
 puts "\n\n woofff wooff good boy #{dog.name}!"
@@ -78,7 +78,7 @@ while true
         menu.choice('View Grooming Services', 3)
         menu.choice('View Grooming salon information', 4)
         menu.choice('Exit', 5)
-
+    
         case selection
 
         # 1. Make a new booking
