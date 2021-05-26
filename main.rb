@@ -33,9 +33,12 @@ while dog_name_count < 2
         if dog_name_count == 2
             clear
             puts "\n\n Do you really have a dog?..."
-            dog_name = "The hero Without A Name"
+            clear
+            puts" we are now closing this till you get a dog "
+            exit  
+            dog_name = puts "The hero Without A Name"
         else
-            puts "OMG how many more times do ypu need?:"
+            puts "OMG dont make me exit you out ?:"
         end
     end
 end
