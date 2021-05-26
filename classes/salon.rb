@@ -10,7 +10,7 @@ class Salon
         @phone = "1800 Baxter Missy Chico "
         @email = "Dogs_are_the_best@gmail.com"
         @services = []  # Array of service objects
-        @about = "~ A place for your furbabies to relax and be surrounded by like-minded pals, \n  Your baby will not only look good but smell good also with a long of love and care"
+        @about = "~ A place for your furbabies to relax and be surrounded by like-minded pals, \n  Your baby will not only look good but smell good also with a lot of love and care"
     end
 
     # Displays the contact information of the salon

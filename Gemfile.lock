@@ -1,11 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    artii (2.1.2)
+    colorize (0.8.1)
+    gemoji (3.0.1)
 
 PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
+  artii (~> 2.1)
+  colorize (~> 0.8.1)
+  gemoji
 
 BUNDLED WITH
    2.2.18
