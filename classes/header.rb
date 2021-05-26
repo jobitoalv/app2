@@ -39,7 +39,7 @@ def welcome(salon)
     puts
     puts HEADER_LINE
     puts "WELCOME TO ".center(HEADER_LENGTH)
-    puts "#{salon.name} Dog Grooming !".center(HEADER_LENGTH)
+    puts "#{salon.name} Dog Grooming !".center(HEADER_LENGTH).colorize(:light_blue)
     puts HEADER_LINE
     puts
 end

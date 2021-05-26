@@ -1,5 +1,6 @@
 
 require 'tty-prompt'
+require 'colorize'
 require_relative './classes/salon'
 require_relative './classes/service'
 require_relative './classes/dog'
@@ -67,10 +68,11 @@ while dog_name_count < 2
             puts "\n\n Do you really have a dog?..."
             clear
             puts" we are now closing this till you get a dog "
+            puts " bye felicia !!!"
             exit  
             dog_name = puts "The hero Without A Name"
         else
-            puts "OMG dont make me exit you out ?:"
+            puts "OMG dont make me exit you out ?:".red.on_white.blink
         end
     end
 end
